@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-site-field="pageTitle">Your Name | Official Profile</title>
+    <meta
+      name="description"
+      content="Official profile for Your Name. Edit this placeholder bio, work summary, links, and contact details before publishing."
+      data-site-field="metaDescription"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://example.com/" data-site-field="canonicalUrl" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Your Name | Official Profile" data-site-field="ogTitle" />
+    <meta
+      property="og:description"
+      content="Official profile for Your Name. Edit this placeholder bio, work summary, links, and contact details before publishing."
+      data-site-field="ogDescription"
+    />
+    <meta property="og:url" content="https://example.com/" data-site-field="ogUrl" />
+    <meta property="og:image" content="https://example.com/assets/profile-placeholder.svg" data-site-field="ogImage" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Name | Official Profile" data-site-field="twitterTitle" />
+    <meta
+      name="twitter:description"
+      content="Official profile for Your Name. Edit this placeholder bio, work summary, links, and contact details before publishing."
+      data-site-field="twitterDescription"
+    />
+    <meta name="twitter:image" content="https://example.com/assets/profile-placeholder.svg" data-site-field="twitterImage" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json" id="person-schema">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Your Name",
+        "url": "https://example.com/",
+        "image": "https://example.com/assets/profile-placeholder.svg",
+        "jobTitle": "Your Title",
+        "description": "A short editable description about who you are and what you do.",
+        "email": "mailto:your.email@example.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/your-profile",
+          "https://www.instagram.com/your-profile"
+        ],
+        "knowsAbout": ["Your specialty", "Your service", "Your location"]
+      }
+    </script>
+    <script src="site.config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top" data-site-field="name">Your Name</a>
+      <nav class="nav-links" aria-label="Profile sections">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#links">Links</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/profile-placeholder.svg" alt="" data-site-field="profileImage" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow" data-site-field="eyebrow">Official Profile</p>
+          <h1 data-site-field="name">Your Name</h1>
+          <p class="headline" data-site-field="headline">
+            Your public-facing title, profession, or personal brand goes here.
+          </p>
+          <p class="summary" data-site-field="summary">
+            Add a concise biography that includes your full name, role, location, and keywords people
+            might search for when looking for you.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="mailto:your.email@example.com" data-site-field="emailHref">
+              Contact
+            </a>
+            <a class="button secondary" href="#links">View Links</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split">
+        <div>
+          <p class="section-label">About</p>
+          <h2 data-site-field="aboutTitle">Profile Summary</h2>
+        </div>
+        <p data-site-field="aboutBody">
+          Replace this with a clear third-person or first-person profile. Mention your full legal or
+          professional name, city or region, current work, notable achievements, and the terms you want
+          associated with your Google result.
+        </p>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-heading">
+          <p class="section-label">Highlights</p>
+          <h2>What to Feature</h2>
+        </div>
+        <div class="highlight-grid" data-site-field="highlights">
+          <article class="highlight-card">
+            <span>01</span>
+            <h3>Your Work</h3>
+            <p>Describe your role, business, creative work, education, or services.</p>
+          </article>
+          <article class="highlight-card">
+            <span>02</span>
+            <h3>Your Expertise</h3>
+            <p>List searchable specialties, industries, tools, subjects, or credentials.</p>
+          </article>
+          <article class="highlight-card">
+            <span>03</span>
+            <h3>Your Proof</h3>
+            <p>Add awards, publications, projects, certifications, testimonials, or press links.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="links" class="section split">
+        <div>
+          <p class="section-label">Links</p>
+          <h2>Profiles and Pages</h2>
+        </div>
+        <div class="link-list" data-site-field="links">
+          <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
+          <a href="https://www.instagram.com/your-profile">Instagram</a>
+          <a href="https://example.com/portfolio">Portfolio</a>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-band">
+        <p class="section-label">Contact</p>
+        <h2 data-site-field="contactTitle">Use this site as your official search result.</h2>
+        <p data-site-field="contactBody">
+          Replace every placeholder, publish the site, update the canonical URL, and submit the live URL
+          to Google Search Console for indexing.
+        </p>
+        <a class="button primary" href="mailto:your.email@example.com" data-site-field="emailHref">
+          your.email@example.com
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span data-site-field="name">Your Name</span> <span data-site-field="footerYear">2026</span>
+      </p>
+      <a href="#top">Back to top</a>
+    </footer>
+  </body>
+</html>
